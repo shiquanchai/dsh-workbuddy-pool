@@ -1,0 +1,18 @@
+# dsh-workbuddy-pool bundle patch。
+#
+# package.json 的 `dsh.bundle.patch` 指向本文件：DSH loader 会把它插进 profile
+# 的组合树（bundle 层之后、用户 cordis.patch.yml 之前）。
+# `name` 必须与安装的包名一致；`config` 是整行替换而不是深合并，所以这里只写
+# 需要覆盖的键，其余走插件内默认值（也可在 profile 的 cordis.patch.yml 里再覆盖）。
+- insert:
+    - id: workbuddy-pool
+      name: dsh-workbuddy-pool
+      config:
+        enabled: true
+        checkinAt: "00:05"
+        snapshotMinutes: 30
+        autoHarvest: true
+        harvestMinTokenDays: 3
+        # 接了 wb-proxy 时把它指向代理的日志，例如：
+        # usageLog: "D:\\wb-proxy\\logs\\usage.jsonl"
+        # 默认读 %DSH_HOME%/workbuddy-pool/usage.jsonl

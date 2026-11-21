@@ -1,0 +1,19 @@
+# 依赖与构建产物
+node_modules/
+.test-data/
+.test-data.*
+*.log
+*.tmp
+
+# 账号凭据 / 令牌缓存（绝对不要提交）
+pool.json
+pool.json.*
+.wb-token
+.credentials.yaml
+*.credentials.yaml
+
+# 编辑器 / 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
