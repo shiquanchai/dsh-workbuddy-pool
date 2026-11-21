@@ -114,7 +114,7 @@ node scripts\import.mjs --rename acc-xxxx --label X  # 改备注名
 | 每日积分（近 7 天） | 分组柱形图，点柱子看当日明细；「本周积分」折线图 |
 | 每个对话消耗 | 会话卡片 + 圆环，点圆环看四个放大饼图；刷新 / 删除（需确认） |
 
-版式静态预览：`docs/preview.html`（`node tools\preview.mjs` 可重新生成）。
+版式静态预览：<https://shiquanchai.github.io/dsh-workbuddy-pool/>（源码是 `docs/index.html` + `docs/preview.html`，`node tools\preview.mjs` 可重新生成）。
 
 ## 接口
 
