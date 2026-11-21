@@ -192,6 +192,11 @@ proxy/              WorkBuddy → OpenAI 兼容反代
 docs/preview.html   版式静态预览
 ```
 
+## 反馈
+
+- 遇到 bug 或想加功能：[提 Issue](https://github.com/shiquanchai/dsh-workbuddy-pool/issues)
+- 用法讨论、配置分享：[Discussions](https://github.com/shiquanchai/dsh-workbuddy-pool/discussions)
+
 ## License
 
 [MIT](LICENSE)

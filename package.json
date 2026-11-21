@@ -29,5 +29,23 @@
     "node": ">=20"
   },
   "license": "MIT",
-  "private": true
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiquanchai/dsh-workbuddy-pool.git"
+  },
+  "homepage": "https://github.com/shiquanchai/dsh-workbuddy-pool#readme",
+  "bugs": {
+    "url": "https://github.com/shiquanchai/dsh-workbuddy-pool/issues"
+  },
+  "author": "shiquanchai",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "workbuddy",
+    "account-pool",
+    "credits",
+    "checkin"
+  ]
 }
